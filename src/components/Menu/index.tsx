@@ -17,8 +17,6 @@ const Menu: React.FC = (props) => {
   const { isDark, toggleTheme } = useTheme()
   const priceData = useGetPriceData()
   const cakePriceUsd = useGetPriceData()
-  const brrlPriceUsd = useGetbrrlPriceData()
-  const tsbPriceUsd = useGettsbPriceData()
   const profile = useGetLocalProfile()
 
   return (
@@ -38,8 +36,6 @@ const Menu: React.FC = (props) => {
       langs={allLanguages}
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd}
-      brrlPriceUsd={brrlPriceUsd}
-      tsbPriceUsd={tsbPriceUsd}
       profile={profile}
       {...props}
     />

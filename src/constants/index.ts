@@ -1,6 +1,6 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@pancakeswap-libs/sdk'
 
-export const ROUTER_ADDRESS = '0xB9a955C0b76d63e650EA5Df73060c3008ac36E9f'
+export const ROUTER_ADDRESS = '0xbad57d9ccEc69c1270095635240c3C760238d354'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -56,7 +56,7 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
   [ChainId.MAINNET]: [
     [
       new Token(ChainId.MAINNET, '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82', 18, 'CAKE', 'PancakeSwap Token'),
-      new Token(ChainId.MAINNET, '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'),
+      new Token(ChainId.MAINNET, '0xDc5F0F2DB641B8109B40e21D029db0C4964800A9', 18, 'WSDX', 'Wrapped SDX'),
     ],
     [BUSD, USDT],
     [DAI, USDT],
