@@ -105,7 +105,7 @@ export default function TokenWarningModal({
             <Text color="failure">Token imported</Text>
           </AutoRow>
           <Text>
-            Anyone can create an BEP20 token on BSC with <em>any</em> name, including creating fake versions of existing
+            Anyone can create an BEP20 token on SDX with <em>any</em> name, including creating fake versions of existing
             tokens and tokens that claim to represent projects that do not have a token.
           </Text>
           <Text>
